@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+.logo{
+    width: 30%;
+    height: 300%;
+}
+.navbar{
+    height: 40px;
+}
+.sec1{
+    padding: 120px;
+}
+.sec1>h5{
+    color: blue;
+}
+section>div{
+    display: flex;
+}
+.men_dev{
+    margin-left: 40px;
+}
+.comp_logo{
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.comp_logo>h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.comp_logo>h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comp_logo>h4{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mid_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: blue;
+}
+.mid_text2>h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    text-wrap: wrap;
+    
+    
+}
+.section_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-evenly;
+    color: blue;
+}
+.men_dev{
+    margin-left: 40px;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sec3>img{
+    height: 90px;
+    width: 8%;
+    padding: 10px;
+    margin: 20px;
+}
+.sec3>h3{
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.vid{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.vid>video{
+    width: 40%;
+    padding: 30px;
+    border-radius: 40px;
+}
+.client{
+    margin: auto;
+    height: 200px;
+    width: 80%;
+    border: 1px solid rgb(234, 228, 228);
+    padding: 50px;
+    border-radius: 10px;
+}
+.test_div{
+    width: 70%;
+}
+.test_div>h4{
+  padding: 30px;
+  font-weight: lighter;
+  color: rgb(74, 74, 233);
+
+}
+.client>div>img{
+    height: 130px;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: blue
+
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.text_cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.text_cen2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+.social_icon{
+    color: blue;
+    display: flex;
+    height: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+i{
+    gap: 30px;
+}
+.sectn{
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+}
+.mid_text2>h6{
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 5px;
+  }
+  .textarea{
+    border: 1px solid blue;
+  }
+  label{
+    font-weight: lighter;
+  }
+  .btn_div{
+    display: flex;
+    padding: 10px;
+  }
+  .btn{
+    margin: auto;
+    background-color: blue;
+    color: white;
+    align-items: center;
+  }

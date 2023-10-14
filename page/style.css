@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+.logo{
+    width: 30%;
+    height: 300%;
+}
+.navbar{
+    height: 40px;
+}
+.sec1{
+    padding: 120px;
+}
+section>div{
+    display: flex;
+}
+.men_dev{
+    margin-left: 40px;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sec3>img{
+    height: 90px;
+    width: 8%;
+    padding: 10px;
+    margin: 20px;
+}
+.sec3>h3{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.btn{
+    margin: auto;
+    background-color: blue;
+    color: white;
+    align-items: center;
+  }
